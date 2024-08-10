@@ -98,8 +98,8 @@ Before running the script, ensure that you have the following prerequisites in p
 ### Setup
 1. GitHub / Git Desktop Setup  
 1.1 Introduction  
-GitHub is a web-based platform focused on development which allows users to version and collaborate their work simultaneously without overwriting each other's work.  
-<br>
+GitHub is a web-based platform focused on development which allows users to version and collaborate their work simultaneously without overwriting each other's work.    
+
 1.2 GitHub Installation  
 Navigate to the [git site](https://git-scm.com/downloads) and follow the download and install instructions for your specific operating system.  
 <br>
