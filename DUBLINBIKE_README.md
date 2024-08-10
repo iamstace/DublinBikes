@@ -1,11 +1,7 @@
+<a id="readme-top"></a>
+
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -27,7 +23,7 @@
   <p align="center">
     This Python script automates the process of fetching real-time GeoJSON data for Dublin Bikes, publishing it as a Feature Layer on ArcGIS Online (AGOL), and integrating it into an interactive map for visualization. The script streamlines the entire workflow, from retrieving live bike location data to creating a dynamic map that showcases current bike availability across Dublin. This tool is ideal for monitoring Dublin's bike-sharing system and visualizing key data points on AGOL with ease.
     
-The markdown file with run through your environment setup, allowing you to pull and run/update the code as needed.
+The markdown file with run through your environment setup, allowing you to fork and run/update the code as needed.
     <br />
     <a href="https://github.com/iamstace/DublinBikes"><strong>Explore the docs »</strong></a>
     <br />
@@ -54,7 +50,6 @@ The markdown file with run through your environment setup, allowing you to pull 
         <li><a href="#setup">Setup</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -78,18 +73,11 @@ The markdown file with run through your environment setup, allowing you to pull 
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
+* [![Python][Python]][Python-url]
 * [![ESRI][Esri]][Esri-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![GitHub][GitHub]][GitHub-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -128,6 +116,9 @@ Set the name and description to whatever you wish, checked the “Copy the maste
 ![img_3.png](img_3.png)  
 <br>
 3. Clone the repository  
+Creating a clone of the repository will simply create a copy of the repository from your Gitub account to your local drive. To do this open GitHub desktop and make sure you are logged in. Navigate to File > Clone a repository. From here you should see your repositorys available on your GitHub account. Select the one you wish to clone and make sure you have a usuable file path in to work with the data. It should look something like the below.  
+
+![img_7.png](img_7.png)
 <br>
 4. Conda/Anaconda Setup  
 4.1 Introduction  
@@ -155,23 +146,12 @@ When install is complete, select “Home” on the left hand side in Anaconda Na
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- ROADMAP -->
 ## Roadmap
 
 - [ ] Improved symbology on the mapping feature
-- [ ] Heat zone map generation to identify hotspot of bike usuage
+- [ ] Scheduled runs to maintain up to date map locations
+- [ ] Heat zone map generation to identify hotspot of bike usage
 - [ ] Spatial analysis of bikes outside zone to suggest potential station locations
 
 See the [open issues](https://github.com/iamstace/DublinBikes/issues) for a full list of proposed features (and known issues).
@@ -214,7 +194,8 @@ Project Link: [https://github.com/iamstace/DublinBikes](https://github.com/iamst
 ## Acknowledgments
 
 * This README file was created using a template from [othneildrew](https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md)
-* This project setup and configuration is largely based on the lectures and practicals from Dr. Robert McNabb for Programming for GIS and Remote Sensing (Ulster University). [Available here](https://iamdonovan.github.io/teaching/egm722/setup/index.html).
+* Logo created with the assistance of [ChatGPT by OpenAI](https://chatgpt.com/).
+* This project setup and configuration is largely based on the [lectures and practicals](https://iamdonovan.github.io/teaching/egm722/setup/index.html) from Dr. Robert McNabb for Programming for GIS and Remote Sensing (Ulster University).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,7 +204,11 @@ Project Link: [https://github.com/iamstace/DublinBikes](https://github.com/iamst
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [Esri-url]: https://www.esri.com/en-us/home
-[Esri]: https://en.wikipedia.org/wiki/Esri#/media/File:Esri_logo.svg
+[Esri]: https://img.shields.io/badge/ESRI-blue?style=for-the-badge&logo=esri
+[Python-url]: https://www.python.org/
+[Python]: https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python
+[GitHub-url]: https://github.com/
+[GitHub]: https://img.shields.io/badge/GitHub-purple?style=for-the-badge&logo=github
 [contributors-shield]: https://img.shields.io/github/contributors/iamstace/DublinBikes.svg?style=for-the-badge
 [contributors-url]: https://github.com/iamstace/DublinBikes/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/iamstace/DublinBikes.svg?style=for-the-badge
@@ -236,20 +221,4 @@ Project Link: [https://github.com/iamstace/DublinBikes](https://github.com/iamst
 [license-url]: https://github.com/iamstace/DublinBikes/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/stacey-v-a6a163126
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+
