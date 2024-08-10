@@ -102,7 +102,7 @@ GitHub is a web-based platform focused on development which allows users to vers
 
 1.2 GitHub Installation  
 Navigate to the [git site](https://git-scm.com/downloads) and follow the download and install instructions for your specific operating system.  
-<br>
+
 1.3 GitHub desktop installation  
 GitHub desktop is the GUI designed to work with git & GitHub. Download and install from here and then log in to your previously created GitHub account.  
 <br>
