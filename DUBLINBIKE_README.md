@@ -19,7 +19,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/iamstace/DublinBikes">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="150" height="150">
   </a>
 
 <h3 align="center">ESRI ArcGIS Online Map Creation</h3>
@@ -32,8 +32,6 @@ The markdown file with run through your environment setup, allowing you to pull 
     <a href="https://github.com/iamstace/DublinBikes"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/iamstace/DublinBikes">View Demo</a>
-    ·
     <a href="https://github.com/iamstace/DublinBikes/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
     <a href="https://github.com/iamstace/DublinBikes/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
@@ -48,15 +46,12 @@ The markdown file with run through your environment setup, allowing you to pull 
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites">Prerequisities</a></li>
+        <li><a href="#setup">Setup</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -112,21 +107,50 @@ Before running the script, ensure that you have the following prerequisites in p
    * Sign Up: If you do not have a GitHub account, you can [sign up for one](https://github.com/). 
 
     
-### Setup and usage
-1. 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/iamstace/DublinBikes.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+### Setup
+1. GitHub / Git Desktop Setup  
+1.1 Introduction  
+GitHub is a web-based platform focused on development which allows users to version and collaborate their work simultaneously without overwriting each other's work.  
+<br>
+1.2 GitHub Installation  
+Navigate to the [git site](https://git-scm.com/downloads) and follow the download and install instructions for your specific operating system.  
+<br>
+1.3 GitHub desktop installation  
+GitHub desktop is the GUI designed to work with git & GitHub. Download and install from here and then log in to your previously created GitHub account.  
+<br>
+2. Forking the repository   
+Creating a fork in the repository is the name used to describe copying the repo you have selected to your own account, but while maintaining a level of connection to the repo you forked from. To do this, navigate to the [repository for this script](https://github.com/iamstace/DublinBikes) and select “Fork” on the top right  
+<br>
+![img_2.png](img_2.png)  
+<br>
+Set the name and description to whatever you wish, checked the “Copy the master branch only” box and create your fork.  
+<br>
+![img_3.png](img_3.png)  
+<br>
+3. Clone the repository  
+<br>
+4. Conda/Anaconda Setup  
+4.1 Introduction  
+Conda is an open-source package/environment manager. We will be utilising conda through the graphical user interface (GUI) Anaconda Navigator provided by the Anaconda distribution. If you prefer, this can also be utilised through the command-line interface (CLI) however it will not be documented here.  
+<br>
+4.2 Installation  
+Navigate to the [Anaconda site](https://docs.anaconda.com/anaconda/install/) and follow the download and install instructions for your specific operating system.  
+<br>
+4.3 Environment Setup  
+Once installed, open the Anaconda Navigator GUI and select environments from the left-hand side. It should appear like the below however, if you are using Anaconda Navigator for the first time you will only have the “base (root)” environment.  
+<br>
+![img_4.png](img_4.png)  
+<br>
+We will be utilising a .YML file to duplicate the required environment required for this code. Depending on what you need to do, you can clone or fork the repo on GitHub which will make these files available on the desktop path you specify or download the ZIP file on this GitHub repository to utilise the files. Either way, within the folders you will find a file called “dublinBikes_env.yml”.  
+<br>
+On Anaconda Navigator, in the environments window, select import and input the path to this yml file in the Local Drive window. You can chose a environment name if this does not auto-populate or if you wish to call it something different. Once complete, hit import.  
+<br>
+![img_5.png](img_5.png)  
+<br>
+When install is complete, select “Home” on the left hand side in Anaconda Naviagtor. Beside “All Applications” you will see a drop down list option. This should have automatically set to your new “dublinBikes_env” but if not, click on the drop down option and select it.  
+<br>
+![img_6.png](img_6.png)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,30 +170,21 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Improved symbology on the mapping feature
+- [ ] Heat zone map generation to identify hotspot of bike usuage
+- [ ] Spatial analysis of bikes outside zone to suggest potential station locations
 
 See the [open issues](https://github.com/iamstace/DublinBikes/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions from the community are welcomed, **greatly appreciated** even.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+If you have a suggestion that would make this better, please create a pull request or tag an #enhancement on the repo!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -198,9 +213,8 @@ Project Link: [https://github.com/iamstace/DublinBikes](https://github.com/iamst
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* This README file was created using a template from [othneildrew](https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md)
+* This project setup and configuration is largely based on the lectures and practicals from Dr. Robert McNabb for Programming for GIS and Remote Sensing (Ulster University). [Available here](https://iamdonovan.github.io/teaching/egm722/setup/index.html).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -221,7 +235,7 @@ Project Link: [https://github.com/iamstace/DublinBikes](https://github.com/iamst
 [license-shield]: https://img.shields.io/github/license/iamstace/DublinBikes.svg?style=for-the-badge
 [license-url]: https://github.com/iamstace/DublinBikes/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/stacey-v-a6a163126
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
