@@ -2,6 +2,8 @@
 
 <!-- PROJECT SHIELDS -->
 
+<div align="center">
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -9,7 +11,7 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -21,9 +23,7 @@
 <h3 align="center">ESRI ArcGIS Online Map Creation</h3>
 
   <p align="center">
-    This Python script automates the process of fetching real-time GeoJSON data for Dublin Bikes, publishing it as a Feature Layer on ArcGIS Online (AGOL), and integrating it into an interactive map for visualization. The script streamlines the entire workflow, from retrieving live bike location data to creating a dynamic map that showcases current bike availability across Dublin. This tool is ideal for monitoring Dublin's bike-sharing system and visualizing key data points on AGOL with ease.
-    
-The markdown file with run through your environment setup, allowing you to fork and run/update the code as needed.
+   TL;DR: Clone the repo, set up your environment with the provided dublinBikes_env.yml, and run the script to see live Dublin bike data on your AGOL map in minutes!
     <br />
     <a href="https://github.com/iamstace/DublinBikes"><strong>Explore the docs »</strong></a>
     <br />
@@ -63,7 +63,7 @@ The markdown file with run through your environment setup, allowing you to fork 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
- This Python script automates the process of fetching real-time GeoJSON data for Dublin Bikes, publishing it as a Feature Layer on ArcGIS Online (AGOL), and integrating it into an interactive map for visualization. The script streamlines the entire workflow, from retrieving live bike location data to creating a dynamic map that showcases current bike availability across Dublin. This tool is ideal for monitoring Dublin's bike-sharing system and visualizing key data points on AGOL with ease.
+ This Python script automates the process of fetching real-time GeoJSON data for Dublin Bikes, publishing it as a Feature Layer on ArcGIS Online (AGOL), and integrating it into an interactive map for visualisation. The script streamlines the entire workflow, from retrieving live bike location data to creating a dynamic map that showcases current bike availability across Dublin. This tool is ideal for monitoring Dublin's bike-sharing system and visualising key data points on AGOL with ease.
     
 The markdown file with run through your environment setup, allowing you to pull and run/update the code as needed.
 
