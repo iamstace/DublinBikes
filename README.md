@@ -118,11 +118,10 @@ Follow this link to locate the [repository for this script](https://github.com/i
 After selecting Fork, you will receive a pop-up to configure your settings (Figure 2):  
    2.	Set the name and description as desired.
    3. Select the “Copy the master branch only” box.
- 
-<br>
+  
+
 ![img_3.png](images/img_3.png)  
 
-<br>
 
 3. Clone the repository  
  Creating a clone of the repository will create a copy of the repository from your GitHub account to your local drive (as shown below).  
