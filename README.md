@@ -100,22 +100,28 @@ Before running the script, ensure that you have the following prerequisites in p
 1.1 Introduction  
 GitHub is a web-based platform focused on development which allows users to version and collaborate their work simultaneously without overwriting each other's work.    
 
-1.2 GitHub Installation  
+   1.2 GitHub Installation  
 Navigate to the [GitHub site](https://git-scm.com/downloads) and follow the download and install instructions for your specific operating system.  
 
-1.3 GitHub desktop installation  
+   1.3 GitHub desktop installation  
 GitHub desktop is the GUI designed to work with git & GitHub. Download and install from here and then log in to your previously created GitHub account.  
 <br>
 2. Forking the repository   
 Creating a fork in the repository is the terminology that describes copying the repository you selected to your own GitHub account. This allows you to run and change the code without affecting the original repository.    
-To do this, navigate to the [repository for this script](https://github.com/iamstace/DublinBikes) and select “Fork” on the top right  
+Follow this link to locate the [repository for this script](https://github.com/iamstace/DublinBikes).  
+   1. Click the ‘Fork’ button on the top-right corner of the page (shown below)
 <br>
 ![img_2.png](images/img_2.png)  
 <br>
-Set the name and description to whatever you wish, checked the “Copy the master branch only” box and create your fork.  
+After selecting Fork, you will receive a pop-up to configure your settings (Figure 2):  
+   2.	Set the name and description as desired.
+   3. Select the “Copy the master branch only” box.
+ 
 <br>
 ![img_3.png](images/img_3.png)  
+
 <br>
+
 3. Clone the repository  
  Creating a clone of the repository will create a copy of the repository from your GitHub account to your local drive (as shown below).  
    1. Open GitHub desktop and make sure you are logged in to your account.   
