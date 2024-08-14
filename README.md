@@ -101,7 +101,7 @@ Before running the script, ensure that you have the following prerequisites in p
 GitHub is a web-based platform focused on development which allows users to version and collaborate their work simultaneously without overwriting each other's work.    
 
 1.2 GitHub Installation  
-Navigate to the [git site](https://git-scm.com/downloads) and follow the download and install instructions for your specific operating system.  
+Navigate to the [GitHub site](https://git-scm.com/downloads) and follow the download and install instructions for your specific operating system.  
 
 1.3 GitHub desktop installation  
 GitHub desktop is the GUI designed to work with git & GitHub. Download and install from here and then log in to your previously created GitHub account.  
@@ -109,16 +109,16 @@ GitHub desktop is the GUI designed to work with git & GitHub. Download and insta
 2. Forking the repository   
 Creating a fork in the repository is the name used to describe copying the repo you have selected to your own account, but while maintaining a level of connection to the repo you forked from. To do this, navigate to the [repository for this script](https://github.com/iamstace/DublinBikes) and select “Fork” on the top right  
 <br>
-![img_2.png](img_2.png)  
+![img_2.png](images/img_2.png)  
 <br>
 Set the name and description to whatever you wish, checked the “Copy the master branch only” box and create your fork.  
 <br>
-![img_3.png](img_3.png)  
+![img_3.png](images/img_3.png)  
 <br>
 3. Clone the repository  
 Creating a clone of the repository will simply create a copy of the repository from your Gitub account to your local drive. To do this open GitHub desktop and make sure you are logged in. Navigate to File > Clone a repository. From here you should see your repositorys available on your GitHub account. Select the one you wish to clone and make sure you have a usuable file path in to work with the data. It should look something like the below.  
 
-![img_7.png](img_7.png)
+![img_7.png](images/img_7.png)
 <br>
 4. Conda/Anaconda Setup  
 4.1 Introduction  
@@ -130,17 +130,17 @@ Navigate to the [Anaconda site](https://docs.anaconda.com/anaconda/install/) and
 4.3 Environment Setup  
 Once installed, open the Anaconda Navigator GUI and select environments from the left-hand side. It should appear like the below however, if you are using Anaconda Navigator for the first time you will only have the “base (root)” environment.  
 <br>
-![img_4.png](img_4.png)  
+![img_4.png](images/img_4.png)  
 <br>
 We will be utilising a .YML file to duplicate the required environment required for this code. Depending on what you need to do, you can clone or fork the repo on GitHub which will make these files available on the desktop path you specify or download the ZIP file on this GitHub repository to utilise the files. Either way, within the folders you will find a file called “dublinBikes_env.yml”.  
 <br>
 On Anaconda Navigator, in the environments window, select import and input the path to this yml file in the Local Drive window. You can chose a environment name if this does not auto-populate or if you wish to call it something different. Once complete, hit import.  
 <br>
-![img_5.png](img_5.png)  
+![img_5.png](images/img_5.png)  
 <br>
 When install is complete, select “Home” on the left hand side in Anaconda Naviagtor. Beside “All Applications” you will see a drop down list option. This should have automatically set to your new “dublinBikes_env” but if not, click on the drop down option and select it.  
 <br>
-![img_6.png](img_6.png)
+![img_6.png](images/img_6.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
