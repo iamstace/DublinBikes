@@ -105,14 +105,16 @@ Navigate to the [GitHub site](https://git-scm.com/downloads) and follow the down
 
    1.3 GitHub desktop installation  
 GitHub desktop is the GUI designed to work with git & GitHub. Download and install from here and then log in to your previously created GitHub account.  
-<br>
+<br>  
 2. Forking the repository   
 Creating a fork in the repository is the terminology that describes copying the repository you selected to your own GitHub account. This allows you to run and change the code without affecting the original repository.    
 Follow this link to locate the [repository for this script](https://github.com/iamstace/DublinBikes).  
    1. Click the ‘Fork’ button on the top-right corner of the page (shown below)
-<br>
+  
+
 ![img_2.png](images/img_2.png)  
-<br>
+  
+
 After selecting Fork, you will receive a pop-up to configure your settings (Figure 2):  
    2.	Set the name and description as desired.
    3. Select the “Copy the master branch only” box.
