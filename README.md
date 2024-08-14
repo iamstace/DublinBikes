@@ -117,7 +117,12 @@ Set the name and description to whatever you wish, checked the “Copy the maste
 ![img_3.png](images/img_3.png)  
 <br>
 3. Clone the repository  
-Creating a clone of the repository will simply create a copy of the repository from your Gitub account to your local drive. To do this open GitHub desktop and make sure you are logged in. Navigate to File > Clone a repository. From here you should see your repositorys available on your GitHub account. Select the one you wish to clone and make sure you have a usuable file path in to work with the data. It should look something like the below.  
+ Creating a clone of the repository will create a copy of the repository from your GitHub account to your local drive (as shown below).  
+   1. Open GitHub desktop and make sure you are logged in to your account.   
+   2. Navigate to File > Clone a repository.  
+   3. You will see all repositories associated with your GitHub Account. Select the one you wish to clone.  
+   4. Choose a suitable file path on your local machine where you would like to store the cloned repository. This will be your working directory.  
+ 
 
 ![img_7.png](images/img_7.png)
 <br>
