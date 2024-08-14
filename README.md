@@ -150,8 +150,8 @@ Finally, we will open Jupyter Notebook using the Python Command prompt.
 2.	We will need to change the environment to our working directory. To do so, enter “cd “+ your directory path (something like the below)	
    
 cd C:\Users\<your username>\<your working directory>   
-3.	Then type “jupyter notebook” and a browser will open at your working directory. Here you can see all items within the folder.
-4.	Selecting the .ipynb file will open up the notebook for you to run 
+3.	Then type “jupyter notebook” and a browser will open at your working directory. Here you can see all items within the folder.  
+4. Selecting the .ipynb file will open up the notebook for you to run 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
