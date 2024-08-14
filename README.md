@@ -89,10 +89,10 @@ The following steps will allow you to set up the environment locally so you can 
 
 Before running the script, ensure that you have the following prerequisites in place:
 1. ArcGIS Online (AGOL) Account
-   * Sign Up: If you don't already have an AGOL account, you will need to create one. Visit [ArcGIS Online](https://www.arcgis.com/sharing/rest/oauth2/signup?client_id=arcgisonline&redirect_uri=http://www.arcgis.com&response_type=token) to sign up for an account: .
-   * Organization Access: If you are using an existing account ensure that your account has the necessary privileges to publish Feature Layers and create web maps. If you're part of an organisation, check with your administrator to ensure you have the correct permissions.
+   * Sign Up: If you don't already have an AGOL account, you will need to create one. Visit [ArcGIS Online](https://www.arcgis.com/sharing/rest/oauth2/signup?client_id=arcgisonline&redirect_uri=http://www.arcgis.com&response_type=token) to sign up for a free account account.
+   * Organisation Access: If you are using an existing account ensure that your account has the necessary privileges to publish Feature Layers and create web maps. If you're part of an organisation, check with your administrator to ensure you have the correct permissions.
 2. Github Account
-   * Sign Up: If you do not have a GitHub account, you can [sign up for one](https://github.com/). 
+   * Sign Up: If you do not have a GitHub account, you can [sign up for one](https://github.com/) as all relevant documentation for this project is stored within a GitHub repository. 
 
     
 ### Setup
@@ -107,7 +107,8 @@ Navigate to the [GitHub site](https://git-scm.com/downloads) and follow the down
 GitHub desktop is the GUI designed to work with git & GitHub. Download and install from here and then log in to your previously created GitHub account.  
 <br>
 2. Forking the repository   
-Creating a fork in the repository is the name used to describe copying the repo you have selected to your own account, but while maintaining a level of connection to the repo you forked from. To do this, navigate to the [repository for this script](https://github.com/iamstace/DublinBikes) and select “Fork” on the top right  
+Creating a fork in the repository is the terminology that describes copying the repository you selected to your own GitHub account. This allows you to run and change the code without affecting the original repository.    
+To do this, navigate to the [repository for this script](https://github.com/iamstace/DublinBikes) and select “Fork” on the top right  
 <br>
 ![img_2.png](images/img_2.png)  
 <br>
@@ -141,6 +142,16 @@ On Anaconda Navigator, in the environments window, select import and input the p
 When install is complete, select “Home” on the left hand side in Anaconda Naviagtor. Beside “All Applications” you will see a drop down list option. This should have automatically set to your new “dublinBikes_env” but if not, click on the drop down option and select it.  
 <br>
 ![img_6.png](images/img_6.png)
+
+5. Launching Jupyter   
+
+Finally, we will open Jupyter Notebook using the Python Command prompt.
+1.	Search and open the Python Command Prompt on your desktop. 
+2.	We will need to change the environment to our working directory. To do so, enter “cd “+ your directory path (something like the below)	
+   
+cd C:\Users\<your username>\<your working directory>
+3.	Then type “jupyter notebook” and a browser will open at your working directory. Here you can see all items within the folder. 
+4.	Selecting the .ipynb file will open up the notebook for you to run 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
